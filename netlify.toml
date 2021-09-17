@@ -3,7 +3,7 @@
 [build]
   publish = "public"
 
-  command = "CI='' npm run build"
+  command = "CI='' yarn build"
 
 [[plugins]]
   # Installs the Lighthouse Build Plugin for all deploy contexts
