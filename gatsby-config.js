@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Leonardo Louie',
     description: 'Leonardo louie ordonez is Lead software engineer',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    siteUrl: 'https://leonardolouie.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@louieofficial30',
   },
@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'BrittanyChiang',
-        short_name: 'BrittanyChiang',
+        name: 'LeonardoLouieOrdonez',
+        short_name: 'LeonardoLouieOrdonez',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
@@ -151,7 +151,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-45666519-2',
+        trackingId: 'G-5FVNXYW3GF',
       },
     },
   ],

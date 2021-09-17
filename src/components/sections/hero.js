@@ -3,7 +3,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
-// import { email } from '@config';
+import { email } from '@config';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -58,25 +58,20 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Leonardo Louie Ordonez.</h2>;
-  const three = <h3 className="big-heading">Lead Software Engineer</h3>;
+  const one = <h1>Hi, my name is Leonardo Louie Ordonez currently based in PH</h1>;
+  const two = <h2 className="big-heading">Crafting</h2>;
+  const three = <h3 className="big-heading"> innovative ideas</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
+        I'm a Lead software engineer focusing on making web apps. I'm also a freelance developer and
+        founder of a start-up company named Codelabs PH.
       </p>
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer"
-    >
-      Check out my course!
+    <a className="email-link" href={`mailto:${email}`}>
+      LET'S HAVE A TALK
     </a>
   );
 

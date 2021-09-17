@@ -1,9 +1,9 @@
 ---
-date: '2018-05-14'
-title: 'Engineer'
-company: 'Upstatement'
+date: '2020-07-01'
+title: 'Lead Software Engineer'
+company: 'Codevelopr'
 location: 'Boston, MA'
-range: 'May 2018 - Present'
+range: 'July 2020 - present'
 url: 'https://www.upstatement.com/'
 ---
 
